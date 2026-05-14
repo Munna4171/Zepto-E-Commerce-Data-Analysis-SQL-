@@ -1,8 +1,11 @@
 🛒 Zepto E-Commerce Data Analysis (SQL)
+
 📌 Project Overview
+
 This project involves a comprehensive end-to-end SQL analysis of real-world e-commerce data from Zepto, a leading quick-commerce platform. The goal was to mimic the workflow of a Data Analyst: starting from raw data ingestion and cleaning to extracting actionable business insights that drive decisions in inventory, marketing, and logistics.
 
 📊 Dataset Description
+
 The dataset contains 3,700+ unique SKUs across various categories (Beverages, Dairy, Fruits & Vegetables, etc.).
 
 Columns: Category, Product Name, MRP, Discount Percentage, Available Quantity, Selling Price, Weight, and Stock Status.
@@ -10,6 +13,7 @@ Columns: Category, Product Name, MRP, Discount Percentage, Available Quantity, S
 Source: Scraped product listings from Zepto's official platform.
 
 🛠️ Tools & Tech Stack
+
 Database: PostgreSQL (pgAdmin 4)
 
 Language: SQL (DDL, DML, DQL)
@@ -17,6 +21,7 @@ Language: SQL (DDL, DML, DQL)
 Key Concepts: Data Cleaning, Aggregations, Conditional Logic (CASE), Multi-level Sorting, and Mathematical Modeling.
 
 🚀 Project Workflow
+
 1. Data Setup & Integrity (DDL)
 Designed a structured table schema with appropriate data types (NUMERIC, INTEGER, BOOLEAN).
 
@@ -35,6 +40,7 @@ Analyzed inventory distribution (In-stock vs. Out-of-stock).
 Identified product variations and SKU counts per product name.
 
 💡 Key Business Insights
+
 The project answers critical business questions, including:
 
 Revenue Estimation: Calculated the total valuation of inventory currently held in the warehouse.
